@@ -1,0 +1,293 @@
+  .navbar-brand {
+    padding-left:30px;
+    max-width: 160px;
+    transform: scale(1.5); 
+    transition: transform 0.7s ease; 
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    transition: background-color 0.3s, width 0.3s;
+    font-size: 22px;
+    color: black;
+    font-weight: 900;
+  }
+  
+
+  .fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='purple' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  width:40px;
+  height: 40px;
+  position: relative;
+  float: right
+   
+}
+
+.navbar-toggler {
+  color: purple !important;   
+  margin-right: 22px;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important; 
+  border: none !important;
+  outline: none !important; 
+  box-shadow: none !important; 
+}
+
+
+.dropdown-menu {
+  width: 225px !important;
+  border: none !important; 
+  --bs-dropdown-link-active-bg: purple !important;
+}
+
+
+:focus-visible, :focus {
+  outline: none !important;
+  box-shadow: none !important; 
+}
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border: none !important;
+}
+
+  .btn-close::before{
+    content: ""; 
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' stroke='purple' fill='purple'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  
+  
+
+  .navbar-nav li.nav-item a.nav-link:hover {
+      transition: color 0.1s ease;
+      color:purple    
+    }
+    .nav-item.dropdown:hover.nav-link {
+      color:purple;
+    }
+  
+
+@media (max-width: 1248px) {
+    .element {
+      text-align: start;
+      margin: 0;
+    }
+    }
+    @media (max-width: 1044px){
+      .row.custom{
+        display: none;
+      }
+
+      .row section{
+        flex-wrap: wrap;
+      }
+      .card-bodys {
+        height: 100px; 
+      }
+    } 
+   
+  
+  
+    @media (max-width: 1200px) {
+      .content-container{ 
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      video {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media (max-width: 1050px) {
+      ul{
+        margin-left: 1.5%;
+      }
+   
+      .dropdown-menu {
+        width: 225px !important;
+        background-color: rgba(255, 255, 255, 0.10) !important;
+        border:  none !important;
+    }
+     
+        
+    }
+  
+  
+  
+  @media (max-width: 938px) {
+    .col-md-6.empower h2{
+      font-size: 35px;  
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+      font-weight: 800;
+    }
+    .container-fluid-video {
+      margin-top: 10%;
+    }
+  .container.elements.shift-down span{
+      font-size: 35px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+      font-weight: 800;
+    }
+  .col-md-6.empower h2:nth-child(2){
+      font-size: 47px;  
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+      font-weight: 800;
+  }   
+  .thin{
+    font-size: 47px;
+    font-family:initial !important;
+    
+   }
+   
+   .col-md-6.empower p{
+    font-weight: 600;
+    color:white; 
+    font-size: 16px;
+   
+  }
+  .row.justify-content-center.faq .card {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+  }
+  
+  } 
+  
+  @media (max-width: 767px) {
+    .custom-margin {
+      margin-top: 0px !important;
+    }
+     .shift-down{
+      margin-top: 5%;
+     } 
+     .carousel-control-prev, .carousel-control-next {
+      top: 270px !important;
+    } 
+      #customerReviewsCarousel .carousel-inner .carousel-item {
+        display: flex;
+      }
+      .review-card-body{
+        height:350px !important;
+      }
+      .col-md-4.type{
+      margin-top: 32px;
+     } 
+     .navbar-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='purple' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+      width:30px;
+      height: 30px;
+       
+    }  
+    .next {
+        padding: 0;
+        margin: 0;
+      }
+    
+    .container-fluid-video {
+     padding-top: 10%;
+    
+    }
+
+   
+  }
+  
+  @media (max-width: 500px) {
+    .container-fluid-video {
+      padding-top: 22%;
+    
+    }
+  
+    .col.elements.m {
+      margin-top:1rem;
+  }  
+  
+  
+    }
+    @media (max-width: 420px) {
+   
+       .row.justify-content-center.elements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+       }
+       .provide{
+          width: 107px;
+          height: 107px;
+          border-radius: 50%;
+          border:3px solid #ea9d17;
+    }
+  
+    
+    .new.text-center.elements{
+      display: flex;
+      align-items: center;
+      margin-left: 15px;
+     
+    
+    }
+    .text-container {
+   
+     display: none;
+  }
+  .worktext{
+    display: block;
+    margin-left: 15px;
+  }
+      .col.elements {
+        flex: 0 0 100%; 
+        max-width: 100%;
+      }
+      .next {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100%;
+        min-width: 100%;
+      
+      }
+   
+    
+    .col.elements.m {
+        margin-top:1rem;
+    }
+    .container-fluid-video {
+      padding-top: 18%;
+    
+    }  
+      .navbar-brand {
+         flex-wrap: wrap;
+      }
+      .container-fluid {
+         padding: 0 15px;
+      }
+      .review-card-body {
+        height: 390px !important; 
+      }
+     
+  
+   
+    }
+   
+ 
+  
+        
+    

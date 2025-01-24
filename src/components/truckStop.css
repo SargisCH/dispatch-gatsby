@@ -1,0 +1,74 @@
+.logo-slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  margin-top: 8% !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.logo-slider-wrapper::before,
+.logo-slider-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo-slider-wrapper::after {
+  left: 0 !important;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
+.logo-slider-wrapper::before {
+  right: 0 !important;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
+.logo-slider {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.logo-img {
+  width: 95px;
+  margin: 0 20px;
+  object-fit: contain;
+ 
+}
+
+@-webkit-keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-list.py-5.bg-light {
+  background-color: white !important;
+}
+
+.logo-list.py-5.bg-light.mt-3 h2 {
+  color: black;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+

@@ -1,0 +1,190 @@
+
+.container.elements.mt-3 h2{
+    color:#ea9d17;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  
+}
+.container.elements.mt-3 span{
+    color:black;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  
+}
+.review-card-body {
+    height: 100%; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 3px 1.6rem rgba(0, 0, 0, .1);
+  }
+  .review-text{
+  margin-top: -55px; 
+  text-align: center;
+  padding: 7px;
+  flex-grow: 1;
+  } 
+  .review-image {
+    width: 75px; 
+    height: 75px; 
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: -50px; 
+    left: -70px; 
+  }
+  .customer-name {
+    position: relative;
+    top: -40px; 
+    left: 75%;
+    font-weight:bold;
+    transform: translateX(-90%); 
+  }
+  .stars {
+    position:relative;
+    top: -55px; 
+    left: 95%; 
+    transform: translateX(-110%); 
+    font-size: 20px; 
+    color: gold; 
+  
+  }
+ 
+  .carousel-inner{
+    padding-top: 30px;
+  }
+  
+  .review-text.expanded {
+    -webkit-line-clamp: unset;
+  }
+  .carousel.slide{
+    display: none;
+  }
+  #carouselExampleControls {
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color:gray!important; 
+  }
+  .carousel-control-prev, .carousel-control-next {
+    top: 192px !important;
+  }
+
+@media (max-width: 1248px) {
+    .element {
+      text-align: start;
+      margin: 0;
+    }
+    }  
+    @media (max-width: 1044px){
+      .row.custom{
+        display: none;
+      }
+      .carousel.slide{
+        display: block;
+      }
+      .row section{
+        flex-wrap: wrap;
+      }
+      .card-bodys {
+        height: 100px; 
+      }
+      .card-body.review-card-body {
+        height:280px !important;
+      }
+    
+    } 
+    @media (max-width: 104px){
+   
+      }
+   
+
+  @media (max-width: 767px) {
+    .custom-margin {
+      margin-top: 0px !important;
+    }
+     .shift-down{
+      margin-top: 5%;
+     } 
+     .carousel-control-prev, .carousel-control-next {
+      top: 270px !important;
+    } 
+      #customerReviewsCarousel .carousel-inner .carousel-item {
+        display: flex;
+      }
+     .card-body.review-card-body {
+        height:350px !important;
+      }
+  }
+  
+  @media (max-width: 420px) {
+   
+       .row.justify-content-center.elements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+       }
+      
+  .card-body.review-card-body{
+        height:410px !important;
+      }
+  
+    }
+   
+   
+  @media (max-width: 380px) {
+ 
+    .card-body.review-card-body{
+      height:390px !important;
+    }
+  }
+  @media (max-width: 370px) {
+ 
+    .card-body.review-card-body{
+      height:400px !important;
+    }
+  }
+  @media (max-width: 353px) {
+ 
+    .card-body.review-card-body{
+      height:420px !important;
+    }
+  }
+    
+    @media (max-width: 326px) {
+      
+      .card-body.review-card-body{
+        height:440px !important;
+      }
+      
+  
+    }
+    @media (max-width: 316px) {
+      
+      .card-body.review-card-body{
+        height:500px !important;
+      }
+      
+  
+    }
+    @media (max-width: 260px) {
+      .container-fluid-video {
+        padding-top: 50%;
+      
+      }
+      .card-body.review-card-body{
+        height:600px !important;
+      }
+      
+      }
+  
+  
+  
+        
+    

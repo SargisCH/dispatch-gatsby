@@ -1,0 +1,75 @@
+
+
+.container.elements.shift-down span{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+      color: white;
+      font-size: 30px;
+  
+    }
+    .shift-down {
+      position: relative;
+      z-index: 2;
+      padding: 3%;
+    } 
+  .col-md-4 img.truck {
+    width: 200px;
+    height: 100px;  
+   }
+  
+  .services{
+    width: 100%;
+    padding: 2rem 0;
+  } 
+  .factoring{
+    white-space: nowrap;
+  }
+  
+.full-width-section{
+    width: 100%;
+    background-color: #ea9d17;
+    display: flex;
+    padding: 2rem 0;
+  }
+  
+  
+  .read-more-container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .read-more-container p{
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }
+  .read-more-container h2{
+    color:white;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-weight: 500;
+  
+  }
+  .read-more-container h3{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .read-more-btn {
+      background-color:white;
+      border:white;
+    border-radius: 5px;
+      width: 110px;
+      height: 30px;
+      font-size: 14px;
+      color: black;
+      
+  }
+ 
+  .read-more-text{
+    display: none;
+  }
+  .read-more-text--show{
+    display: inline;
+    
+  }

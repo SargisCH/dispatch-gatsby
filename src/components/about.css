@@ -1,0 +1,51 @@
+.container.py-5 h2{
+  color: black;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+ }
+ 
+.container.py-5 span{
+ color: purple;
+ font-size: 40px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.style_moving_info_center__yTejj {
+    display: flex;
+    align-items: flex-end;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+  
+  }
+  
+  .style_moving_infos__r7GS7{
+  display: flex;
+  padding-top: 2rem;
+  justify-content:space-evenly;
+  }
+  
+  .style_moving_info_number__vI2ou{
+    line-height: .7;
+    font-style: normal;
+    font-weight: 700;
+    color:#ea9d17 !important;
+    font-size: 4rem !important;
+  }
+  @media (max-width: 420px) {
+    .style_moving_info_reason__IccwQ{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 380px) {
+    
+    .style_moving_info_reason__IccwQ{
+      font-size: 17px;
+    }
+  }
+  @media (max-width: 323px) {
+    
+    .style_moving_info_reason__IccwQ{
+      font-size: 15px;
+    }
+  }

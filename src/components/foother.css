@@ -1,0 +1,43 @@
+
+  .brand-logo{
+    padding-left: 20px;
+    max-width: 160px;
+    transform: scale(1.5); 
+    transition: transform 0.7s ease;
+  }
+  .review-img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -23px; 
+    left: 90px; 
+    border: 1px solid #9e7eae; 
+  }
+  .worktext{
+    display: none;
+  }
+  .phone-icon ,.email-icon,.location-icon {
+    color: white !important;
+    font-size: 30px !important;
+    margin-right: 10px;
+
+  }
+  .facebook-icon{
+    color:  white !important;
+    font-size: 30px !important;
+  }
+  
+
+  .small-email {
+    font-size: 14px; 
+  }
+  .social-icon:hover{
+    color:#ea9d17 !important;
+  }
+  .text-white.mt-7{
+    background-color:black;
+    width: 100%;
+  
+  }
